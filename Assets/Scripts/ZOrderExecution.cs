@@ -9,6 +9,6 @@ public class ZOrderExecution : MonoBehaviour
     {
         GetComponent<Camera>().opaqueSortMode = UnityEngine.Rendering.OpaqueSortMode.NoDistanceSort;
         GetComponent<Camera>().transparencySortMode = TransparencySortMode.Perspective;
-#endif
     }
+#endif
 }
