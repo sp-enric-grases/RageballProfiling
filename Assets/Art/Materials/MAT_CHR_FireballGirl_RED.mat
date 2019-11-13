@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_CHR_FireballGirl_RED
+  m_Shader: {fileID: 4800000, guid: f4ac5a3b0ef688b49a65e73803f01e85, type: 3}
+  m_ShaderKeywords: _STATICHIGHLIGHTS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorRGBOutlineWidthA:
+        m_Texture: {fileID: 2800000, guid: 444b909bcf4028346adf451735a66cc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: cb21046fac8d0464baa6e9621289dc0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Highlight:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: b3989c6e131d6e848b6ed3bdca90f102, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ASEOutlineWidth: 0.005
+    - _BaseCellOffset: 0
+    - _BaseCellSharpness: 0.13
+    - _HighlightCellOffset: -0.908
+    - _HighlightCellSharpness: 0.037
+    - _IndirectDiffuseContribution: 1
+    - _IndirectSpecularContribution: 1
+    - _NormalScale: 0
+    - _OutlineWidth: 0.02
+    - _RimOffset: 0.3
+    - _RimPower: 1
+    - _ShadowContribution: 0.5
+    - _StaticHighLights: 1
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 1
+    - __dirty: 1
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseTint: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 0}
+    - _HighlightTint: {r: 0.8867924, g: 0.5479708, b: 0.5479708, a: 1}
+    - _OutlineTint: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.39215687, g: 0.90588236, b: 1, a: 0}
