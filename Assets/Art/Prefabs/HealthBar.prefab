@@ -119,6 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 343856671627996335}
   - component: {fileID: 5897764455798389785}
+  - component: {fileID: 4098695322529090354}
   m_Layer: 8
   m_Name: HealthBar
   m_TagString: Untagged
@@ -161,6 +162,20 @@ RotationConstraint:
   m_Sources:
   - sourceTransform: {fileID: 0}
     weight: 1
+--- !u!114 &4098695322529090354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343856671627996332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0354ddc7466c0974cba34493592b08ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBarCam: {fileID: 0}
+  factorScale: 1
 --- !u!1 &343856671984694738
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,30 +300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4265dfd6fd9da46887fe54ae1d7db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gradient:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   health: 1
   initColor: {r: 1, g: 0, b: 0, a: 1}
   endColor: {r: 0, g: 1, b: 0, a: 1}

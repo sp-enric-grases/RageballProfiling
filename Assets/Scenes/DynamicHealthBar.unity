@@ -181,6 +181,26 @@ PrefabInstance:
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
       objectReference: {fileID: 895597587}
+    - target: {fileID: 4843527890062620517, guid: b9178522921050d439709f00d9eba2a1,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843527890062620517, guid: b9178522921050d439709f00d9eba2a1,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 4988424197154562632, guid: b9178522921050d439709f00d9eba2a1,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 4988424197154562632, guid: b9178522921050d439709f00d9eba2a1,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9178522921050d439709f00d9eba2a1, type: 3}
 --- !u!1001 &227603798
@@ -255,6 +275,26 @@ PrefabInstance:
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
       objectReference: {fileID: 895597587}
+    - target: {fileID: 6208391074182765550, guid: 99c9e4b7263a4b14b858de9049eba02b,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208391074182765550, guid: 99c9e4b7263a4b14b858de9049eba02b,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 5775155538818223811, guid: 99c9e4b7263a4b14b858de9049eba02b,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 5775155538818223811, guid: 99c9e4b7263a4b14b858de9049eba02b,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99c9e4b7263a4b14b858de9049eba02b, type: 3}
 --- !u!1 &776434625
@@ -435,6 +475,26 @@ PrefabInstance:
       propertyPath: initColor.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7911008152195769692, guid: 2a1705ac48b2e3d4caf7446f2836b85d,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911008152195769692, guid: 2a1705ac48b2e3d4caf7446f2836b85d,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 7765427953082855537, guid: 2a1705ac48b2e3d4caf7446f2836b85d,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 7765427953082855537, guid: 2a1705ac48b2e3d4caf7446f2836b85d,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a1705ac48b2e3d4caf7446f2836b85d, type: 3}
 --- !u!1 &895597586
@@ -449,7 +509,7 @@ GameObject:
   - component: {fileID: 895597590}
   - component: {fileID: 895597588}
   m_Layer: 0
-  m_Name: LifeBarCamera
+  m_Name: HealthBarCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -680,6 +740,26 @@ PrefabInstance:
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
       objectReference: {fileID: 895597587}
+    - target: {fileID: 4947093287199241672, guid: 5fe8fdd45d559534b80481e42c38e01b,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947093287199241672, guid: 5fe8fdd45d559534b80481e42c38e01b,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 4803723106470830309, guid: 5fe8fdd45d559534b80481e42c38e01b,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 4803723106470830309, guid: 5fe8fdd45d559534b80481e42c38e01b,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fe8fdd45d559534b80481e42c38e01b, type: 3}
 --- !u!1001 &1127136224
@@ -1058,6 +1138,26 @@ PrefabInstance:
       propertyPath: initColor.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 527241393344954693, guid: f99199f453dfbe041814dae39d8b5309,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 527241393344954693, guid: f99199f453dfbe041814dae39d8b5309,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 98226883183252584, guid: f99199f453dfbe041814dae39d8b5309,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 98226883183252584, guid: f99199f453dfbe041814dae39d8b5309,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99199f453dfbe041814dae39d8b5309, type: 3}
 --- !u!1001 &1451687339
@@ -1212,6 +1312,26 @@ PrefabInstance:
       propertyPath: initColor.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2524192012263810157, guid: cf37f9e2ff6cb6945881be2db088ed93,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524192012263810157, guid: cf37f9e2ff6cb6945881be2db088ed93,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 2669052203513262400, guid: cf37f9e2ff6cb6945881be2db088ed93,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 2669052203513262400, guid: cf37f9e2ff6cb6945881be2db088ed93,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf37f9e2ff6cb6945881be2db088ed93, type: 3}
 --- !u!1001 &1524764602
@@ -1286,6 +1406,26 @@ PrefabInstance:
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
       objectReference: {fileID: 895597587}
+    - target: {fileID: 110897274128017188, guid: f66e9b8424beee84ab23621f29f588d6,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 110897274128017188, guid: f66e9b8424beee84ab23621f29f588d6,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 541601763183620617, guid: f66e9b8424beee84ab23621f29f588d6,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 541601763183620617, guid: f66e9b8424beee84ab23621f29f588d6,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f66e9b8424beee84ab23621f29f588d6, type: 3}
 --- !u!1001 &1741934448
@@ -1374,6 +1514,26 @@ PrefabInstance:
         type: 3}
       propertyPath: initColor.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769057106827694386, guid: 1a302e3a23c3a944dbe272938e7a5f5c,
+        type: 3}
+      propertyPath: factorScale
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769057106827694386, guid: 1a302e3a23c3a944dbe272938e7a5f5c,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 7916457135524611103, guid: 1a302e3a23c3a944dbe272938e7a5f5c,
+        type: 3}
+      propertyPath: healthBarCam
+      value: 
+      objectReference: {fileID: 895597590}
+    - target: {fileID: 7916457135524611103, guid: 1a302e3a23c3a944dbe272938e7a5f5c,
+        type: 3}
+      propertyPath: factorScale
+      value: 27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a302e3a23c3a944dbe272938e7a5f5c, type: 3}

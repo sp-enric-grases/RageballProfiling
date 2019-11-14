@@ -1,18 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ScaleHealthBar : MonoBehaviour
+namespace TestDynamicBar
 {
-    // Start is called before the first frame update
-    void Start()
+    public class ScaleHealthBar : MonoBehaviour
     {
-        
-    }
+        [SerializeField] private Camera healthBarCam;
+        [SerializeField] private float factorScale = 27;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private float dist;
+        private float initScale;
+        private float scale;
+
+        private void Awake()
+        {
+            initScale = transform.localScale.x;
+        }
+
+        private void Update()
+        {
+            dist = (healthBarCam.transform.position - transform.position).magnitude;
+            scale = dist / factorScale;
+            transform.localScale = new Vector3(initScale * scale, initScale * scale, initScale * scale);
+        }
     }
 }

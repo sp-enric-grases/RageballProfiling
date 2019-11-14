@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace TestDynamicBar
 {
@@ -18,15 +16,11 @@ namespace TestDynamicBar
         private Color[] colors;
         private int[] triangles;
         private MeshRenderer render;
-        static private MaterialPropertyBlock props;
 
         void Awake()
         {
             mesh = GetComponent<MeshFilter>().mesh;
             render = GetComponent<MeshRenderer>();
-
-            if (props == null)
-                props = new MaterialPropertyBlock();
 
             SetMeshData();
         }
