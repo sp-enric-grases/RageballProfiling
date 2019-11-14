@@ -8,8 +8,9 @@ namespace TestDynamicBar
     [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
     public class UIDynamicBar : MonoBehaviour
     {
-        [Range(0, 1)] public float life;
-        public Color color = Color.white;
+        [Range(0, 1)] public float health = 1;
+        public Color initColor = Color.red;
+        public Color endColor = Color.green;
 
         private Mesh mesh;
         private Transform[] wPoints;
@@ -28,7 +29,6 @@ namespace TestDynamicBar
                 props = new MaterialPropertyBlock();
 
             SetMeshData();
-            CreateLifeBar();
         }
 
         private void SetMeshData()
@@ -41,7 +41,7 @@ namespace TestDynamicBar
             {
                 wPoints[v] = transform.GetChild(v).transform;
                 vertices[v] = wPoints[v].localPosition;
-                colors[v] = color;
+                colors[v] = initColor;
             }
 
             triangles = new int[6];
@@ -51,31 +51,38 @@ namespace TestDynamicBar
             triangles[3] = 1;
             triangles[4] = 2;
             triangles[5] = 3;
-
-            CreateLifeBar();
         }
 
-        private void CreateLifeBar()
+        private void Update()
         {
+            SetColor(initColor);
+            //SetGradientColor(initColor, endColor);
+            UpdateHealthBar(health);
+        }
+
+        public virtual void UpdateHealthBar(float health)
+        {
+            vertices[2] = wPoints[0].localPosition + (wPoints[2].localPosition - wPoints[0].localPosition) * health;
+            vertices[3] = wPoints[1].localPosition + (wPoints[3].localPosition - wPoints[1].localPosition) * health;
+
             mesh.vertices = vertices;
             mesh.triangles = triangles;
             mesh.colors = colors;
             mesh.RecalculateNormals();
         }
 
-        private void Update()
-        {
-            vertices[2] = wPoints[0].localPosition + (wPoints[2].localPosition - wPoints[0].localPosition) * life;
-            vertices[3] = wPoints[1].localPosition + (wPoints[3].localPosition - wPoints[1].localPosition) * life;
-
-            CreateLifeBar();
-            ApplyColor();
-        }
-
-        public void ApplyColor()
+        public virtual void SetColor(Color initColor)
         {
             for (int c = 0; c < colors.Length; c++)
-                colors[c] = color;
+                colors[c] = initColor;
+        }
+
+        public virtual void SetGradientColor(Color initColor, Color endColor)
+        {
+            colors[0] = initColor;
+            colors[1] = initColor;
+            colors[2] = Color.Lerp(initColor, endColor, health);
+            colors[3] = Color.Lerp(initColor, endColor, health);
         }
     }   
 }
